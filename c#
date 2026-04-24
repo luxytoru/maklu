@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double alas, tinggi, luas;
+
+        // Input
+        Console.Write("Masukkan alas: ");
+        alas = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Masukkan tinggi: ");
+        tinggi = Convert.ToDouble(Console.ReadLine());
+
+        // Hitung luas
+        luas = 0.5 * alas * tinggi;
+
+        // Output
+        Console.WriteLine("Luas segitiga adalah: " + luas);
+    }
+}
